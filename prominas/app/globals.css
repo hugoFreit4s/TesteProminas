@@ -35,3 +35,8 @@ body {
 input::placeholder{
   color: #666464;
 }
+
+@font-face {
+  font-family: 'Krona One';
+  src: url('/fonts/KronaOne-Regular.ttf') format('truetype');
+}
