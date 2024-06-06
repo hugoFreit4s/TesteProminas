@@ -1,5 +1,9 @@
+'use client';
+
+import React from 'react';
+import { FaPlayCircle } from 'react-icons/fa';
+
 const FourthSection = () => {
-    {/* Alinhar */}
     return (
         <div className="grid items-center justify-center mt-[70px]" style={{ gridTemplateColumns: '1fr 1fr' }}>
             <div className="ml-[50px]">
@@ -8,8 +12,9 @@ const FourthSection = () => {
                     utilizamos as mais modernas tecnologias para uma comunicação mais eficiente e eficaz entre professor e aluno,
                     destinados à formação de profissionais qualificados, capazes de transformar a realidade socioeconômica do país.</p>
             </div>
-            <div>
-                <img className="h-[330px] w-[583px]" src={"/mockupnotebook.png"} alt="Imagem" style={{ placeSelf: 'center' }} />
+            <div className="relative">
+                <img className="h-[330px] w-[583px]" src="/mockupnotebook.png" alt="Imagem" style={{ placeSelf: 'center' }} />
+                <FaPlayCircle className="absolute top-1/2 left-[300px] transform -translate-x-1/2 -translate-y-1/2 text-gray-700 cursor-pointer text-white" size={60} />
             </div>
         </div>
     )

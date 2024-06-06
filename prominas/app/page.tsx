@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <div className="w-full" style={{ gridRow: "5" }}>
-        <FifthSection text="CURSOS COM NOTA MÁXIMA NA AVALIAÇÃO DO MEC" image="/fachadamec.jpg" />
+        <FifthSection />
       </div>
     </div>
   );

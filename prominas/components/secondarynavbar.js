@@ -8,7 +8,7 @@ const SecondaryNavbar = () => {
         <div className="w-full bg-[#494949] bg-opacity-40" style={{ height: "91px" }}>
             <div className="container mx-auto h-full flex justify-around items-center w-full">
                 <Link href="/">
-                    <img src="/logo.svg" alt="Logo" className="cursor-pointer" style={{ height: '55.94px', width: '182px' }} />
+                    <img src="/logo.svg" alt="Logo" className="cursor-pointer transition-transform duration-300 transform hover:scale-105" style={{ height: '55.94px', width: '182px' }} />
                 </Link>
                 <div className="relative w-[30%] mr-[-20px]">
                     <input type="text" placeholder="Pesquise por um curso" className="px-10 py-2 text-black w-[85%] mr-[-65px] h-[50px]" style={{ borderRadius: '2px' }} />
