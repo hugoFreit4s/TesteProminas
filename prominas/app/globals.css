@@ -42,11 +42,10 @@ input::placeholder {
 }
 
 button:hover {
-  background-color: #7500FF;
-  color: #ffff;
+  background-color: #5a00c7;
 }
 
 #dropdown-menu:hover,
 ul li:hover{
-  color: #7500FF;
+  color: #5a00c7;
 }
