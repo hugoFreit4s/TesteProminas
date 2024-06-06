@@ -1,9 +1,9 @@
-import Navbar from "../Components/navbar";
-import SecondaryNavbar from "../Components/secondarynavbar";
-import SecondSection from "../Components/second-section";
-import ThirdSection from "../Components/third-section";
-import FourthSection from "../Components/fourth-section";
-import FifthSection from "../Components/fifth-section";
+import Navbar from "../components/navbar";
+import SecondaryNavbar from "../components/secondarynavbar";
+import SecondSection from "../components/second-section";
+import ThirdSection from "../components/third-section";
+import FourthSection from "../components/fourth-section";
+import FifthSection from "../components/fifth-section";
 
 export default function Home() {
   return (
