@@ -4,6 +4,7 @@ import SecondSection from "../components/second-section";
 import ThirdSection from "../components/third-section";
 import FourthSection from "../components/fourth-section";
 import FifthSection from "../components/fifth-section";
+import CustomCard from "../components/customcard";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <div className="w-full" style={{ gridRow: "5" }}>
         <FifthSection />
       </div>
+      <CustomCard />
     </div>
   );
 }

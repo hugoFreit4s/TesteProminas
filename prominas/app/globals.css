@@ -49,3 +49,14 @@ button:hover {
 ul li:hover{
   color: #5a00c7;
 }
+
+.curve {
+  position: absolute;
+  bottom: 40%;
+  left: 0%;
+  width: 80%;
+  height: 30%;
+  background-color: #4299e1;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
