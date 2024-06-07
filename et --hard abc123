@@ -1,0 +1,41 @@
+[33mcommit 985ef5c48ca0e632afb50f0047e546e4eb5687d2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Hugo de Freitas Evangelista <hugo.evangelista@valedoaco.local>
+Date:   Thu Jun 6 13:58:50 2024 -0300
+
+    Inicio da criação de card customizado
+
+[33mcommit 5bc7aba34cb9f137b813020d32bd551d7f2cd542[m
+Author: Hugo de Freitas Evangelista <hugo.evangelista@valedoaco.local>
+Date:   Thu Jun 6 13:25:53 2024 -0300
+
+    Efeito de 'levitação' sobre os cards da quinta seção e sobre a logo, além da adição do ícone de play no notebook
+
+[33mcommit 3f3e51edacd91816b71735c2bd648ec5fd6390d6[m
+Author: Hugo de Freitas Evangelista <hugo.evangelista@valedoaco.local>
+Date:   Thu Jun 6 12:15:25 2024 -0300
+
+    Ajustando nome de arquivos para deploy no Vercel
+
+[33mcommit f695af39bfb722e9c783d034c3cd49a260708763[m
+Author: Hugo de Freitas Evangelista <hugo.evangelista@valedoaco.local>
+Date:   Thu Jun 6 11:50:39 2024 -0300
+
+    Novos componentes e alguns ajustes
+
+[33mcommit 21e83dd4cb621cc360c05958d41c8c31da40c963[m
+Author: hugoFreit4s <hugo.encaminhados@gmail.com>
+Date:   Thu Jun 6 00:33:21 2024 -0300
+
+    Ajuste da barra de navegação secundária, efeitos de :hover e ajuste do menu dropdown
+
+[33mcommit 8dd1bba4a644fa1eeba7d9557c5c7d947b3d72c9[m
+Author: hugoFreit4s <hugo.encaminhados@gmail.com>
+Date:   Wed Jun 5 23:50:34 2024 -0300
+
+    Criação de novas sessões, componentes novos e formatação de textos
+
+[33mcommit 3d531959b508da0a519d84d7f1ef1585206b8e99[m
+Author: hugoFreit4s <hugo.encaminhados@gmail.com>
+Date:   Wed Jun 5 20:52:08 2024 -0300
+
+    Primeiro commit. Nav's quase finalizados.

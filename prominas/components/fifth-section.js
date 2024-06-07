@@ -15,6 +15,7 @@ const FifthSection = () => {
 
     return (
         <section className="h-[703px] w-full container ml-auto mr-auto flex flex-col items-center">
+            <h1 className='text-[32px] pb-[90px]' style={{fontFamily: "Krona One, sans-serif"}}>Abra novas portas para o seu futuro</h1>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr 1fr", columnGap: "30px" }}>
                 {cardsData.map((card, index) => (
                     <FifthSectionCards
@@ -32,7 +33,7 @@ const FifthSection = () => {
                 {cardsData.map((_, index) => (
                     <div
                         key={index}
-                        className={`h-3 w-3 rounded-full mx-2 transition-colors duration-300 ${activeIndex === index ? 'bg-blue-500' : 'bg-gray-300'}`}
+                        className={`h-3 w-3 rounded-full mx-2 transition-colors duration-300 ${activeIndex === index ? 'bg-[#7500FF]' : 'bg-gray-300'}`}
                     />
                 ))}
             </div>
