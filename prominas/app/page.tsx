@@ -10,6 +10,7 @@ import EighthSection from "../components/eighth-section";
 import FrequentQuestions from "../components/frequent-questions";
 
 export default function Home() {
+  const images = ['/images/apertodemao.jpg', '/images/brasil.png'];
   return (
     <div className="p-0 w-full h-auto" style={{ display: "grid", gridTemplateRows: "820px 200px 710px 550px 700px 1200px 980px 650px 900px" }}>
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: 'url("/headerbg.jpg")', filter: 'blur(5px)', height: '809px', backgroundPosition: '0% 100%', gridRow: "1" }}></div>
