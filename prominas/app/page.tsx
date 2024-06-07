@@ -10,17 +10,20 @@ import EighthSection from "../components/eighth-section";
 import FrequentQuestions from "../components/frequent-questions";
 import Courses from "../components/courses";
 import Social from "../components/social";
+import KnowMore from "../components/knowmore";
+import Footer from "../components/footer";
 
 export default function Home() {
-  const images = ['/images/apertodemao.jpg', '/images/brasil.png'];
   return (
-    <div className="p-0 w-full h-auto" style={{ display: "grid", gridTemplateRows: "820px 200px 710px 550px 700px 1200px 980px 650px 900px, 500px, 400px" }}>
-      <div className="absolute inset-0 bg-cover bg-center z-0" style={{ backgroundImage: 'url("/headerbg.jpg")', filter: 'blur(5px)', height: '809px', backgroundPosition: '0% 100%', gridRow: "1" }}></div>
+    <div className="p-0 w-full h-auto grid" style={{ gridTemplateRows: "repeat(13, auto)" }}>
+      <div className="absolute inset-0 bg-cover bg-center z-0 w-full" style={{ backgroundImage: 'url("/headerbg.jpg")', filter: 'blur(5px)', height: '809px', backgroundPosition: '0% 100%', gridRow: "1" }}></div>
 
-      <div className="relative grid-row-1" style={{ gridRow: "1" }}>
+      <div className="relative" style={{ gridRow: "1" }}>
         <Navbar />
         <SecondaryNavbar />
-        <p style={{ fontSize: "60px", fontFamily: "Krona One, sans-serif", fontWeight: "400", position: "absolute", top: "50%", left: "10%" }}>CONHEÇA A <br></br>FACULDADE ÚNICA</p>
+        <p className="text-4xl md:text-5xl lg:text-6xl font-light mt-[20%] ml-[10%] mb-10" style={{ fontFamily: "Krona One, sans-serif" }}>
+          CONHEÇA A <br /> FACULDADE ÚNICA
+        </p>
       </div>
 
       <div className="w-full" style={{ gridRow: "2" }}>
@@ -35,7 +38,7 @@ export default function Home() {
         <FourthSection />
       </div>
 
-      <div className="w-full" style={{ gridRow: "5" }}>
+      <div className="w-full mt-[15%] md:mt-[5%]" style={{ gridRow: "5" }}>
         <FifthSection />
       </div>
 
@@ -43,24 +46,32 @@ export default function Home() {
         <SixthSection />
       </div>
 
-      <div className="w-full" style={{ gridRow: "7" }}>
+      <div className="w-full mt-[15%] md:mt-[5%]" style={{ gridRow: "7" }}>
         <SeventhSection />
       </div>
 
-      <div className="w-full mt-[122px]" style={{ gridRow: "8" }}>
+      <div className="w-full" style={{ gridRow: "8" }}>
         <EighthSection />
       </div>
 
-      <div className="w-full mt-[122px]" style={{ gridRow: "9" }}>
+      <div className="w-full" style={{ gridRow: "9" }}>
         <FrequentQuestions />
       </div>
 
-      <div className="w-full mt-[30px]" style={{ gridRow: "10" }}>
+      <div className="w-full" style={{ gridRow: "10" }}>
         <Courses />
       </div>
 
-      <div className="w-full mt-[30px]" style={{ gridRow: "11" }}>
+      <div className="w-full" style={{ gridRow: "11" }}>
         <Social />
+      </div>
+
+      <div className="w-full flex justify-center" style={{ gridRow: "12" }}>
+        <KnowMore />
+      </div>
+
+      <div className="w-full" style={{ gridRow: "13" }}>
+        <Footer />
       </div>
     </div>
   );

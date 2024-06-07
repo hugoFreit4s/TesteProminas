@@ -3,7 +3,7 @@ import React from 'react';
 import { FaPlayCircle } from 'react-icons/fa';
 
 const FirstSVG = () => (
-    <svg width="431" height="481" viewBox="0 0 431 481" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute transform translate-x-[1100px] translate-y-[150px]">
+    <svg className="absolute right-0 bottom-0" width="431" height="481" viewBox="0 0 431 481" fill="none" xmlns="http://www.w3.org/2000/svg">
         <mask id="mask0_1_224" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="0" y="0" width="481" height="481">
             <path d="M480.422 0.55127L0 480.974H348.408L480.422 348.959V0.55127Z" fill="white" />
         </mask>
@@ -21,7 +21,7 @@ const FirstSVG = () => (
 );
 
 const SecondSVG = () => (
-    <svg width="429" height="480" viewBox="0 0 429 481" xmlns="http://www.w3.org/2000/svg" className="absolute transform translate-x-[1100px] translate-y-[0px]">
+    <svg className="absolute right-0" width="429" height="480" viewBox="0 0 429 481" xmlns="http://www.w3.org/2000/svg">
         <mask id="mask0_1_229" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="0" y="0" width="482" height="481">
             <path d="M0.862305 0L481.285 480.502V132.015L349.349 0H0.862305Z" fill="white" />
         </mask>
@@ -40,7 +40,7 @@ const SecondSVG = () => (
 
 const EighthSection = () => {
     return (
-        <section className="w-full h-[612px] bg-[#7500FF] mt-0 relative">
+        <section className="w-full h-[612px] bg-[#7500FF] mt-[9%] relative">
             <div className="flex overflow-hidden relative w-full h-full">
                 <FirstSVG />
                 <SecondSVG />

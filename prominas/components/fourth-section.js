@@ -5,7 +5,7 @@ import { FaPlayCircle } from 'react-icons/fa';
 
 const FourthSection = () => {
     return (
-        <div className="grid mt-[70px]" style={{ gridTemplateColumns: '1fr 1fr' }}>
+        <div className="grid h-auto mt-[15%]" style={{ gridTemplateColumns: '1fr 1fr' }}>
             <div className="flex flex-col items-center justify-center">
                 <h2 className="text-[32px]" style={{ fontFamily: "Krona One, sans-serif" }}>
                     Construa seu amanhã conosco

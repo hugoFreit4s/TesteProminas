@@ -1,6 +1,6 @@
 const Courses = () => {
     return (
-        <section className="w-full flex flex-col align-center">
+        <section className="w-full flex flex-col align-center mt-[15%]">
             <h1 className="text-[30px] w-[90%] self-center pb-[50px]" style={{ fontFamily: 'Poppins, sans-serif' }}>Graduação</h1>
             <div className="w-[90%] self-center grid text-[14px]" style={{ gridTemplateColumns: '1fr 1fr 1fr 1fr', columnGap:'20px' }}>
                 <ul style={{ gridColumn: '1', width: 'auto' }}>
